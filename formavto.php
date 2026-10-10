@@ -6,7 +6,7 @@ include 'temp/bd.php';
 <div class="row mt-5">
     <div class="col-3"></div>
         <form method="post" action="avto.php" class="col-6 bg-white p-4 rounded-4 shadow-sm border">
-        <h1 class="mb-4 pt-2 fw-bold text-center text-warning ">Авторизация</h1>
+        <h1 class="mb-4 pt-2 fw-bold text-center text-warning ">Авторизация для посетителей</h1>
         
        <?php if (isset($_GET['error'])): ?>
     <div class="alert alert-danger py-2 small text-center" role="alert">
